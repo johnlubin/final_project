@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Music Selector</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+ 
+<body>
+   
+    <div class="container">
+      <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Your Personalized Music Selector</a>
+      </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"> <a href="#">Home</a> </li>
+                <li> <a href="http://www.soundcloud.com">Soundcloud</a> </li>
+                <li> <a href="http://www.spotify.com">Spotify</a> </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+      
+      <div id = "information" class="well well-sm"> 
+        <center>This is a quiz designed to determine which genre of music you should listen to based on your personality. For each question, there are six answers that correspond with each genre of music. The genres include Hip/Hop, Pop, Classical, Rock, Country, and Electronic. When you are finished with the elaborate seven question quiz, click submit and discover your true music preference, along with three recommended songs for each style of music. </center>
+      </div>
+      
+     <br><br>
+  
+   <div class="panel panel-default">
+     <div class="panel-heading">
+       <h3 class="panel-title"><center>How do you eat your potatoes?</center></h3>
+     </div>
+   </div>
+   
+   <div class="panel-body">
+     <div class="btn-group" role="group" aria-label="potatoes">
+       <button class = "potato" id= "hipHopMash" type="button" class="btn btn-default">Mashed</button>
+       <button class = "potato" id = "rockBoil" type="button" class="btn btn-default">Boiled</button>
+       <button class = "potato" id = "popSweet" type="button" class="btn btn-default">Sweet</button><br><br>
+       <button class = "potato" id = "classicalFrench" type="button" class="btn btn-default">French Fries</button>
+       <button class = "potato" id = "countryBake" type="button" class="btn btn-default">Baked</button>
+       <button class = "potato" id = "electroI" type="button" class="btn btn-default">I do not like potatoes</button>
+       <h2 class = "potato" style ="display:none" >You chose: <span id = "potatoGenre">Genre</span></h2>
+     </div>
+   </div>
+        
+     <br>
+     
+     <div class="panel panel-default">
+       <div class="panel-heading">
+          <h3 class="panel-title"><center>What is your favorite animal?</center></h3>
+       </div>
+   <div class="panel-body">
+    <div class="animals" class="btn-group" role="group" aria-label="animals">
+      <button class = "animal" id= "classicalEle" type="button" class="btn btn-default">Elephants</button>
+      <button class = "animal" id = "electroQuail" type="button" class="btn btn-default">Quail</button>
+      <button class = "animal" id = "countryParrot" type="button" class="btn btn-default">Parrot</button><br><br>
+      <button class = "animal" id = "hipHopMonkey" type="button" class="btn btn-default">Monkey</button>
+      <button class = "animal" id = "popLemur" type="button" class="btn btn-default">Lemur</button>
+      <button class = "animal" id = "rockAnt" type="button" class="btn btn-default">Ant</button>
+      <h2 class = "animal" style ="display:none" >You chose: <span id = "animalGenre">Animal</span></h2>
+    </div>
+     
+     
+<!--      <div id ="submit" class="btn-group" role="group" aria-label="...">
+       -->
+    </div>
+     <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center>Pick an Adjective to Describe Yourself.</center></h3>
+  </div>
+   <div class="panel-body">
+    <div class="adjective" class="btn-group" role="group" aria-label="animals">
+      <button class = "adjective" id= "electroSexy" type="button" class="btn btn-default">Sexy</button>
+      <button class = "adjective" id = "classicalGhastly" type="button" class="btn btn-default">Ghastly</button>
+      <button class = "adjective" id = "countryImmaculate" type="button" class="btn btn-default">Immaculate</button><br><br>
+      <button class = "adjective" id = "popSnarky" type="button" class="btn btn-default">Snarky</button>
+      <button class = "adjective" id = "hipHopJubilant" type="button" class="btn btn-default">Jubilant</button>
+      <button class = "adjective" id = "rockRatchet" type="button" class="btn btn-default">Ratchet</button>
+    </div>
+     <h2 class = "adjective" style ="display:none">You chose: <span id = "adjectiveGenre">Adjective</span></h2><br>
+   
+     </div>
+     </div>
+     
+     <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center>Pick your favorite TV Show!</center></h3>
+  </div>
+   <div class="panel-body">
+    <div class="tvShow" class="btn-group" role="group" aria-label="TvShow">
+      <button class = "tvShow" id= "countryParks" type="button" class="btn btn-default">Parks and Recreation</button>
+      <button class = "tvShow" id = "classicalOrange" type="button" class="btn btn-default">Orange is the New Black</button>
+      <button class = "tvShow" id = "electroKeeping" type="button" class="btn btn-default">Keeping up with the Kardashians</button><br><br>
+      <button class = "tvShow" id = "popMLB" type="button" class="btn btn-default">MLB</button>
+      <button class = "tvShow" id = "rockJeopardy" type="button" class="btn btn-default">Jeopardy</button>
+      <button class = "tvShow" id = "hipHopGOT" type="button" class="btn btn-default">Game of Thrones</button>
+    </div>
+     <h2 class = "tvShow" style ="display:none">You chose: <span id = "tvShowGenre">TV show</span></h2><br>
+     </div>
+
+       <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center>Pick your favorite Chipotle Protein!</center></h3>
+  </div>
+   <div class="panel-body">
+    <div class="chipotle" class="btn-group" role="group" aria-label="chipotle">
+      <button class = "chipotle" id= "countrySteak" type="button" class="btn btn-default">Steak</button>
+      <button class = "chipotle" id = "classicalChicken" type="button" class="btn btn-default">Chicken</button>
+      <button class = "chipotle" id = "electroCarnitas" type="button" class="btn btn-default">Carnitas</button><br><br>
+      <button class = "chipotle" id = "popBarbacoa" type="button" class="btn btn-default">Barbacoa</button>
+      <button class = "chipotle" id = "rockVeggies" type="button" class="btn btn-default">Veggies</button>
+      <button class = "chipotle" id = "hipHopI" type="button" class="btn btn-default">I don't go to chipotle.</button>
+    </div>
+     <h2 class = "chipotle" style ="display:none">You chose: <span id = "chipotleProtein">TV show</span></h2><br>
+     </div>
+       </div>
+         
+         <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center>Pick your favorite vacation Spot!</center></h3>
+  </div>
+   <div class="panel-body">
+    <div class="vacation" class="btn-group" role="group" aria-label="chipotle">
+      <button class = "vacation" id= "countrySiberia" type="button" class="btn btn-default">Siberian Tundra</button>
+      <button class = "vacation" id = "classicalGuatamala" type="button" class="btn btn-default">Guatamalian Rainforest</button>
+      <button class = "vacation" id = "electroMorgue" type="button" class="btn btn-default">Morgue in Lithuania</button><br><br>
+      <button class = "vacation" id = "popNorthKorea" type="button" class="btn btn-default">North Korea</button>
+      <button class = "vacation" id = "rockFlatiron" type="button" class="btn btn-default">Flatiron School</button>
+      <button class = "vacation" id = "hipHopAzer" type="button" class="btn btn-default">Azerbaijan</button>
+    </div>
+     <h2 class = "vacation" style ="display:none">You chose: <span id = "vacationSpot">Spot</span></h2><br>
+     </div>
+       
+           <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><center>What's Your Favorite Washed-Up Celebrity!</center></h3>
+  </div>
+   <div class="panel-body">
+    <div class="celebrity" class="btn-group" role="group" aria-label="chipotle">
+      <button class = "celebrity" id= "countryLohan" type="button" class="btn btn-default">Lindsay Lohan</button>
+      <button class = "celebrity" id = "classicalDavid" type="button" class="btn btn-default">David Hasselhoff</button>
+      <button class = "celebrity" id = "electroSnookie" type="button" class="btn btn-default">Snookie</button><br><br>
+      <button class = "celebrity" id = "popNixon" type="button" class="btn btn-default">President Nixon</button>
+      <button class = "celebrity" id = "rockSoulja" type="button" class="btn btn-default">Soulja Boy</button>
+      <button class = "celebrity" id = "hipHopFriday" type="button" class="btn btn-default">The Girl that Sang "Friday"</button>
+    </div>
+     <h2 class = "celebrity" style ="display:none">You chose: <span id = "celebrityPerson">Celeb</span></h2><br>
+     </div>
+     
+       </div>
+         <button id="submit" type="button"> Submit </button>
+         </div>
+       
+       
+<!--    These are fake div endings      -->
+       </div>
+       </div>
+     </div>
+   
+   
+   
+      
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>  
+   <script src="js/script.js"></script>
+ </body>
+</html>

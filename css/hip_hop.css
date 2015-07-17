@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed);
+
+h1{
+  color: #191970;
+  font-size: 75px;
+  text-align: center;
+  font-family:'Bangers', cursive;
+}
+
+p{
+  font-family:'Stint Ultra Condensed', cursive;
+  font-size: 30px;
+  text-align: center;
+  }
+
+h2{
+  color: #191970;
+  font-size: 45px;
+  text-align: center;
+  font-family:'Bangers', cursive;
+}
+
+body{
+  background-color: #B0C4DE;
+ }

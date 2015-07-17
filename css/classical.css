@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Rochester);
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed);
+
+h1{
+  color: #800080;
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Rochester', cursive;
+}
+
+p{
+  font-family:'Stint Ultra Condensed', cursive;
+  font-size: 30px;
+  text-align: center;
+  }
+
+h2{
+  color: #800080;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Rochester', cursive;
+}
+body{
+  background-color: #9370DB;
+ }

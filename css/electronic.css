@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed|Montserrat);
+h1{
+  color: #009999;
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Stint Ultra Condensed', cursive;
+  }
+
+h2{
+  color: #009999;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #002E2E;
+ }

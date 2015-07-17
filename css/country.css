@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre:400,700);
+@import url(http://fonts.googleapis.com/css?family=Stint+Ultra+Condensed);
+
+h1{
+  color: #FF4500;
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Averia Sans Libre', cursive;
+}
+
+p{
+  font-family:'Stint Ultra Condensed', cursive;
+  font-size: 30px;
+  text-align: center;
+  }
+
+h2{
+  color: #FF4500;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Averia Sans Libre', cursive;
+}
+
+body{
+  background-color: #FFA500;
+ }
